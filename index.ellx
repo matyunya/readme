@@ -1,0 +1,16 @@
+version: 1.1
+nodes:
+  $1 = applyTheme(theme)
+layout:
+[
+  [,
+    {
+      "value": "Apply new Prism.js theme whenever \"theme\" node is updated"
+    }
+  ],
+  [,
+    {
+      "node": "$1"
+    }
+  ]
+]
